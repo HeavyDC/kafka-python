@@ -22,4 +22,4 @@ KafkaConsumer(value_deserializer=lambda m: json.loads(m.decode('ascii')))
 # StopIteration if no message after 1sec
 KafkaConsumer(consumer_timeout_ms=1000)
 
-#https://www.youtube.com/watch?v=mHCYCuHYFvU
+# https://www.youtube.com/watch?v=mHCYCuHYFvU
